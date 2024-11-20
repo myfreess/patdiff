@@ -1,5 +1,7 @@
 (library
  (name patdiff_kernel)
+ (flags
+  (:standard -w -67))
  (public_name patdiff.kernel)
  (libraries core_kernel.composition_infix core patience_diff
    core_kernel.pairing_heap re)
